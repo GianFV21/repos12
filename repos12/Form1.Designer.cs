@@ -29,13 +29,34 @@ namespace repos12
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.txtingreso = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // txtingreso
+            // 
+            this.txtingreso.Location = new System.Drawing.Point(342, 130);
+            this.txtingreso.Name = "txtingreso";
+            this.txtingreso.Size = new System.Drawing.Size(100, 20);
+            this.txtingreso.TabIndex = 0;
+            this.txtingreso.Text = "Ingreso";
+            this.txtingreso.TextChanged += new System.EventHandler(this.txtingreso_TextChanged);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtingreso);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox txtingreso;
     }
 }
 

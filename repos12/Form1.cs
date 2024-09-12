@@ -16,5 +16,10 @@ namespace repos12
         {
             InitializeComponent();
         }
+
+        private void txtingreso_TextChanged(object sender, EventArgs e)
+        {
+            //comentario de ingreso
+        }
     }
 }
