@@ -20,6 +20,7 @@ namespace repos12
         private void txtingreso_TextChanged(object sender, EventArgs e)
         {
             //comentario de ingreso
+            double Num1 = 0;
         }
     }
 }
